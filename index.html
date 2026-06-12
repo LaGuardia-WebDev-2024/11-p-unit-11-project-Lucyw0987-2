@@ -52,18 +52,30 @@ Select ONE Additional
       $(".thing1").hide ();
       //news years eve
       $("#mem1-button").click(function (){
-      $("#mem1").css("color", "purple");
       $("#mem1").text("nye party with all my friends!!!");
-    
+      $("#mem1").text("We all had a big sleepover after the party!");
+      $("#mem1").css("color", "purple");
+      $(".thing1").css('width', '200px').show(100);
+      $("html").css("background-color","rgb(189, 155, 206)")
       });
 
-      // ======================== Button #2
+      // exit image 2
+      $(".thing2").hide ();
+      //halloween
       $("#mem2-button").click(function () {
+      $("#mem2").text("halloween parties:)");
+      $("#mem2").text("best friends birthday was at midnight so we had cake");
         $("#mem2").css("color", "blue");
+        $(".thing2").css('width', '200px').show(100);
       });
 
-      // ======================== Button #3
+      // exit image 3
+      $(".thing3").hide ();
+      //the beach
       $("#mem3-button").click(function () {
+        $("#mem2").text("a few beach days at the end of the dAY:)");
+      $("#mem2").text("all my friends play soccer at the beach");
+
         $("#mem3").css("color", "green");
         $("#mem3").text("Coding Parties! 🎉");
       });
